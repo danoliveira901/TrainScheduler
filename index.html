@@ -39,7 +39,7 @@
         <div class="card mb-4">
           <div class="card-header">Current Train Schedule</div>
           <div class="card-body">
-            <table class="table table-sm table-hover" id='employee-table'>
+            <table class="table table-sm table-hover" id='Current-Train-table'>
               <thead>
                 <tr>
                   <th scope="col">Train Name</th>
@@ -62,7 +62,7 @@
       <div class="col-md-12">
         <!-- Add Train  -->
         <div class="card mb-4">
-          <div class="card-header">Add Train</div>
+          <div class="card-header" >Add Train</div>
           <div class="card-body">
 
             <!-- user input form-->
@@ -86,7 +86,7 @@
                 <input type="Frequency" class="form-control" id="Frequency">
             </div>
 
-            <button type="submit" id="submitInfo" class="btn btn-primary">Submit</button>
+            <button type="submit" id="add-train" class="btn btn-primary">Submit</button>
             <button type="submit" id="clearInfo" class="btn btn-primary">Clear</button>
             </form>
 
@@ -96,11 +96,12 @@
     </div>
 
   </div>
-    <script src="assets\JavaScript\app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
-    <!-- Add Firebase products that you want to use -->
-  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-firestore.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="assets\JavaScript\app.js"></script>
+
     
 </body>
 </html>
